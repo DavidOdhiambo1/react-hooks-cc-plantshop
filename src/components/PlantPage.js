@@ -22,11 +22,18 @@ function PlantPage() {
     setSearch(newSearch)
   }
 
+  function deletePlant(id){
+    const updatedPlants = plants.filter(plant => plant.id !== id)
+    setPlants(updatedPlants)
+  }
+
+  
+
   return (
     <main>
       <NewPlantForm onAddNewPlant={addnewPlant}/>
       <Search search={search} onSearchChange={handleSearchChange}/>
-      <PlantList plants={plants} search={search}/>
+      <PlantList plants={plants} search={search} onDeletePlant={deletePlant}/>
     </main>
   );
 }
