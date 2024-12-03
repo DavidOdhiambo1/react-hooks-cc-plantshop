@@ -41,6 +41,13 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "cactus",
+      "image": "https://www.thespruce.com/thmb/Yl2rOmWKj-gMa7c6Hi04o3UcjCU=/600x400/how-to-grow-cactus-1902954-04-d5f8940f124a4ac3abce5369f316830a.jpg",
+      "price": 10,
+      "id": 8
     }
+   
   ]
 }
